@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "ScreenVigil Bridge",
+  "version": "1.0",
+  "description": "Reports the active tab's domain to the local ScreenVigil application.",
+  "permissions": ["tabs"],
+  "host_permissions": ["http://127.0.0.1:51823/*"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
